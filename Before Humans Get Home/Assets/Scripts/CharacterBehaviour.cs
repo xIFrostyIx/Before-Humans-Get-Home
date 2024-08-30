@@ -2,6 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/*Created By: Joshua Guerrero
+ * This script adds player movement and jumping.
+ */
+
 public class CharacterBehaviour : MonoBehaviour
 {
     //Allows movement speed to be tweaked in unity
@@ -9,6 +13,8 @@ public class CharacterBehaviour : MonoBehaviour
     public float jumpingForce;
     public Transform ceilingCheck;
     public Transform groundCheck;
+    public LayerMask groundObjects;
+    public float checkRadius;
 
     //references rigid body component
     private Rigidbody2D rb;
@@ -16,6 +22,7 @@ public class CharacterBehaviour : MonoBehaviour
     private bool facingRight = true;
     private float movementDirections;
     private bool isJumping =  false;
+    private bool isGround;
 
     // Awake is called after all objects are initialized
     private void Awake()
@@ -29,7 +36,7 @@ public class CharacterBehaviour : MonoBehaviour
     {
         //get inputs
         movementDirections = Input.GetAxis("Horizontal"); // Scale of -1 to 1
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump") && isGround)
         {
             isJumping = true;
         }
@@ -52,6 +59,13 @@ public class CharacterBehaviour : MonoBehaviour
         }
         isJumping = false;
     }
+
+    private void FixedUpdate()
+    {
+        //check if grounded
+        isGround = Physics2D.OverlapCircle(groundCheck.position, checkRadius, groundObjects);
+    }
+
 
     private void flipCharacter()
     {
