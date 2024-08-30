@@ -7,6 +7,8 @@ public class CharacterBehaviour : MonoBehaviour
     //Allows movement speed to be tweaked in unity
     public float movementSpeed;
     public float jumpingForce;
+    public Transform ceilingCheck;
+    public Transform groundCheck;
 
     //references rigid body component
     private Rigidbody2D rb;
