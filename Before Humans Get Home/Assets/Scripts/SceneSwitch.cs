@@ -4,15 +4,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class SceneSwitch : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+   
+    public void GoToLevelOne()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        SceneManager.LoadScene("Lvl 1");
     }
 }
