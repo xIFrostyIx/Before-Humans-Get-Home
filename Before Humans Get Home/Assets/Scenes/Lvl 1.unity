@@ -210,7 +210,7 @@ GameObject:
   - component: {fileID: 14868788}
   - component: {fileID: 14868787}
   - component: {fileID: 14868790}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -535,7 +535,7 @@ GameObject:
   - component: {fileID: 185250303}
   - component: {fileID: 185250302}
   - component: {fileID: 185250304}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -664,7 +664,7 @@ GameObject:
   - component: {fileID: 217981346}
   - component: {fileID: 217981345}
   - component: {fileID: 217981347}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -920,7 +920,7 @@ GameObject:
   - component: {fileID: 294642899}
   - component: {fileID: 294642898}
   - component: {fileID: 294642900}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1049,7 +1049,7 @@ GameObject:
   - component: {fileID: 301885675}
   - component: {fileID: 301885674}
   - component: {fileID: 301885676}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1284,7 +1284,7 @@ GameObject:
   - component: {fileID: 648568239}
   - component: {fileID: 648568238}
   - component: {fileID: 648568241}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2187,7 +2187,7 @@ GameObject:
   - component: {fileID: 1386600284}
   - component: {fileID: 1386600283}
   - component: {fileID: 1386600285}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2318,6 +2318,7 @@ GameObject:
   - component: {fileID: 1717640086}
   - component: {fileID: 1717640085}
   - component: {fileID: 1717640087}
+  - component: {fileID: 1717640088}
   m_Layer: 0
   m_Name: '"Character"'
   m_TagString: Untagged
@@ -2453,7 +2454,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 5
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -2478,9 +2479,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeed: 5
-  jumpingForce: 20
+  jumpingForce: 800
   ceilingCheck: {fileID: 28070156}
   groundCheck: {fileID: 1375083533}
+  groundObjects:
+    serializedVersion: 2
+    m_Bits: 64
+  checkRadius: 0.1
+--- !u!114 &1717640088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1717640079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acabb03ae7286974290192cfc6f0cbcd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1766704901
 GameObject:
   m_ObjectHideFlags: 0
@@ -2561,7 +2578,7 @@ GameObject:
   - component: {fileID: 1856358841}
   - component: {fileID: 1856358840}
   - component: {fileID: 1856358843}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
