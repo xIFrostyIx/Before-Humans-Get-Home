@@ -1351,7 +1351,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -73.1371, y: -112.34, z: 0}
-  m_LocalScale: {x: 8.4902, y: 8.4902, z: 8.4902}
+  m_LocalScale: {x: 10.591524, y: 10.591524, z: 10.591524}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1434,8 +1434,8 @@ Transform:
   m_GameObject: {fileID: 578331772}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 108.9929, y: 20.2, z: 0}
-  m_LocalScale: {x: 1.0497235, y: 1.1247077, z: 1.1247077}
+  m_LocalPosition: {x: 72.61, y: 19.28, z: 0}
+  m_LocalScale: {x: 0.7218948, y: 0.77346146, z: 0.77346146}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 999632182}
@@ -2187,7 +2187,7 @@ GameObject:
   - component: {fileID: 982533444}
   - component: {fileID: 982533443}
   m_Layer: 0
-  m_Name: IMG_0093
+  m_Name: Hanger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2254,7 +2254,7 @@ Transform:
   m_GameObject: {fileID: 982533442}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.6, y: 24.3, z: 0}
+  m_LocalPosition: {x: -11.6, y: 26.1, z: 0}
   m_LocalScale: {x: 0.6409565, y: 0.6409565, z: 0.6409565}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2932,7 +2932,7 @@ GameObject:
   - component: {fileID: 1229855497}
   - component: {fileID: 1229855496}
   m_Layer: 0
-  m_Name: cat tower
+  m_Name: cat_tower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3251,8 +3251,8 @@ Transform:
   m_GameObject: {fileID: 1362992111}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 37.1911, y: 39.9, z: 0}
-  m_LocalScale: {x: 1.1959685, y: 1.1959685, z: 1.1959685}
+  m_LocalPosition: {x: 68.19, y: 35.25, z: 0}
+  m_LocalScale: {x: 1.0409231, y: 1.0409231, z: 1.0409231}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 999632182}
@@ -4042,7 +4042,7 @@ GameObject:
   - component: {fileID: 1730387278}
   - component: {fileID: 1730387277}
   m_Layer: 0
-  m_Name: IMG_0083
+  m_Name: TV_Stand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4262,7 +4262,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 49.7, y: 29.7, z: 0}
-  m_LocalScale: {x: 1.1569512, y: 1.1569512, z: 1.1569512}
+  m_LocalScale: {x: 1.4172652, y: 0.84409887, z: 1.1569512}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 999632182}
@@ -4514,7 +4514,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 53.6, y: 5.5, z: 0}
-  m_LocalScale: {x: 0.8026136, y: 0.8026136, z: 0.8026136}
+  m_LocalScale: {x: 0.7543245, y: 0.6465454, z: 0.6465454}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 999632182}
@@ -5333,7 +5333,7 @@ GameObject:
   - component: {fileID: 1947276068}
   - component: {fileID: 1947276067}
   m_Layer: 0
-  m_Name: cat bed
+  m_Name: cat_bed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5608,7 +5608,7 @@ GameObject:
   - component: {fileID: 2139379749}
   - component: {fileID: 2139379748}
   m_Layer: 0
-  m_Name: stove hood
+  m_Name: stove_hood
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
