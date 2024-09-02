@@ -70,6 +70,6 @@ public class CharacterBehaviour : MonoBehaviour
     private void flipCharacter()
     {
         facingRight = !facingRight;
-        transform.Rotate(0f, 0f, 180f);
+        transform.Rotate(0f, 180f, 0f);
     }
 }
