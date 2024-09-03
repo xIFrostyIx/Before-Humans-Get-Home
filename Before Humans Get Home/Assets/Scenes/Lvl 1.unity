@@ -1079,7 +1079,7 @@ Transform:
   m_GameObject: {fileID: 290144287}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -244.722, y: -478.9993, z: -11.087423}
+  m_LocalPosition: {x: -244.722, y: -473.6, z: -10.91}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1399,8 +1399,8 @@ GameObject:
   - component: {fileID: 503867381}
   - component: {fileID: 503867380}
   - component: {fileID: 503867384}
-  - component: {fileID: 503867385}
   - component: {fileID: 503867383}
+  - component: {fileID: 503867385}
   m_Layer: 0
   m_Name: Cat Walking Sprite Sheet Rough copy_0
   m_TagString: Untagged
@@ -1472,7 +1472,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: -1880353495, guid: 14b5ae5179447b043824d3e200d4f530, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 0.889, y: 0.4208203}
@@ -1490,7 +1490,7 @@ Transform:
   m_GameObject: {fileID: 503867379}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -365.5, y: -561.4, z: -0.91}
+  m_LocalPosition: {x: -214.1, y: -480.6, z: -0.91}
   m_LocalScale: {x: 10.591524, y: 10.591524, z: 10.591524}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2838,7 +2838,7 @@ Transform:
   m_GameObject: {fileID: 1717640079}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -146.2, y: -245.7, z: -1.21}
+  m_LocalPosition: {x: -151.2, y: -240.06, z: -1.21}
   m_LocalScale: {x: 2.395964, y: 2.395964, z: 2.395964}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3672,7 +3672,7 @@ MonoBehaviour:
   m_Priority: 10
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
-  m_Follow: {fileID: 1717640084}
+  m_Follow: {fileID: 503867382}
   m_Lens:
     FieldOfView: 113.18
     OrthographicSize: 23
@@ -3701,7 +3701,7 @@ Transform:
   m_GameObject: {fileID: 2080500066}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -214.08035, y: -478.9993, z: -11.087423}
+  m_LocalPosition: {x: -214.1, y: -473.6, z: -10.91}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
