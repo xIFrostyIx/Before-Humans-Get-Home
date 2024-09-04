@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6459515721055700794}
   m_Layer: 0
   m_Name: GlassCup_0
-  m_TagString: Untagged
+  m_TagString: Prop
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
