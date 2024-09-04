@@ -393,8 +393,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "  -Use arrow keys to move left and right\n\n  -Space to jump\n\n  -Press
-    E to break objects"
+  m_text: "  -Knock over all breakable objects to win\n\n  -Use arrow keys to move
+    left and right\n\n  -Space to jump"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a7ab8ee0e848bfe44925da8d285408c5, type: 2}
   m_sharedMaterial: {fileID: -8802482219819327436, guid: a7ab8ee0e848bfe44925da8d285408c5, type: 2}
