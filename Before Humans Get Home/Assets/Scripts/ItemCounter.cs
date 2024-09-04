@@ -19,12 +19,14 @@ public class ItemCounter : MonoBehaviour
 
     private void OnCollisisionEnter2D(Collision2D collision)
     {
+        // Check if the colliding object has the "Prop" tag
         if (collision.gameObject.CompareTag("Prop"))
         {
+            // Check if the collision is with an object on the "Ground" layer
             if (collision.gameObject.layer == LayerMask.NameToLayer("Ground"))
             {
-                counter++;
-                UpdateCounterText();
+                counter++; //Increment the counter
+                UpdateCounterText(); //Update UI text
             }
         }
     }
@@ -32,6 +34,7 @@ public class ItemCounter : MonoBehaviour
     {
         if (counter != null)
         {
+            // Update the displayed count
             counterText.text = "Count: " + counter;
         }
     }
