@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8742965598179974969}
   - component: {fileID: 754409934878440679}
   - component: {fileID: 6279036330104341249}
+  - component: {fileID: 6044973991410733329}
   m_Layer: 0
   m_Name: Mirror_0
   m_TagString: Untagged
@@ -120,3 +121,16 @@ CapsuleCollider2D:
   m_Offset: {x: 0.09066391, y: -0.07019043}
   m_Size: {x: 2.0270767, y: 2.8050194}
   m_Direction: 0
+--- !u!114 &6044973991410733329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5205321055686489985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2bbbaed4df80d74ea01fe70811cf347, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  counter: {fileID: 0}

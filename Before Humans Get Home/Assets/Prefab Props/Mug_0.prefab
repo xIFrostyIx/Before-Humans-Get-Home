@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2264696484583023199}
   - component: {fileID: 537984964807913097}
   - component: {fileID: 8069186215440362828}
+  - component: {fileID: 7368023362695653144}
   m_Layer: 0
   m_Name: Mug_0
   m_TagString: Prop
@@ -130,3 +131,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.6207008, y: 1.4639206}
   m_EdgeRadius: 0
+--- !u!114 &7368023362695653144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3215740840865266079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2bbbaed4df80d74ea01fe70811cf347, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  counter: {fileID: 0}
