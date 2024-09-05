@@ -1,43 +1,41 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
+
 public class ItemCounter : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI counterText;
-    public int counter = 0;
+    public int itemCount;
     // Start is called before the first frame update
     private void Start()
     {
-        if (counter == null)
-        {
-            Debug.LogError("CounterText is not assigned");
-            return;
-        }
+        UpdateItemCount();
         UpdateCounterText();
     }
 
-    private void OnCollisisionEnter2D(Collision2D collision)
+    private void OnCollisionEnter2D(Collider2D other)
     {
-        // Check if the colliding object has the "Prop" tag
-        if (collision.gameObject.CompareTag("Prop"))
+        if (other.CompareTag("Prop"))
         {
-            // Check if the collision is with an object on the "Ground" layer
-            if (collision.gameObject.layer == LayerMask.NameToLayer("Ground"))
+            itemCount--;
+            UpdateCounterText();
+
+            if (itemCount <= 0)
             {
-                counter++; //Increment the counter
-                UpdateCounterText(); //Update UI text
+                SceneManager.LoadScene("Win");
             }
         }
     }
-    private void UpdateCounterText()
+    private void UpdateItemCount()
     {
-        if (counter != null)
-        {
-            // Update the displayed count
-            counterText.text = "Count: " + counter;
-        }
+        itemCount = GameObject.FindGameObjectsWithTag("Prop").Length;
     }
 
-    
+    private void UpdateCounterText()
+    {
+        counterText.text = "Items Left: " + itemCount;
+    }
 }
