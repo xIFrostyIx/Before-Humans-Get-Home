@@ -31,7 +31,7 @@ public class ItemCounter : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             // Check if the player collided with a "Prop"
-            if (other.gameObject.GetComponent<Collider2D>().IsTouchingLayers(LayerMask.GetMask("Prop")))
+            if (other.gameObject.CompareTag("Prop"))
             {
                 // Decrease the item count
                 itemCount--;
@@ -58,7 +58,7 @@ public class ItemCounter : MonoBehaviour
         itemCount = GameObject.FindGameObjectsWithTag("Prop").Length;
     }
 
-    private void UpdateCounterText()
+    public void UpdateCounterText()
     {
         // Displays the number of "props"
         counterText.text = "Items Left: " + itemCount;
