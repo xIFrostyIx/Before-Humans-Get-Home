@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0ec205fa40d4ccd4f8bdeeec9501d2ec
+guid: 6834a4dad1b254c44afa4716ab901248
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,106 +97,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GlassCup_0
+      name: smallerpaws 1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 682.6666
-        width: 341.33334
-        height: 341.33334
+        x: 17
+        y: 1010
+        width: 988
+        height: 659
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6361821f2ef068941b51b78c2430027b
-      internalID: 2008095419
+      spriteID: 1a28a2acb413fa74f8c509e0158a37ac
+      internalID: 402105724
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GlassCup_1
+      name: smallerpaws 1_1
       rect:
         serializedVersion: 2
-        x: 341
-        y: 682.6666
-        width: 341.33334
-        height: 341.33334
+        x: 1121
+        y: 943
+        width: 991
+        height: 754
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf4b3b28f932ff842a9b454e4c9ac6a6
-      internalID: 722031957
+      spriteID: e2078a41e30e0454a8133487dc4ef7f3
+      internalID: -1629560553
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GlassCup_2
+      name: smallerpaws 1_4
       rect:
         serializedVersion: 2
-        x: 682
-        y: 682.6666
-        width: 341.33334
-        height: 341.33334
+        x: 2290
+        y: 943
+        width: 995
+        height: 750
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d94688eeec79a9743b00595061d8a945
-      internalID: 770122766
+      spriteID: b05d29fad4c7e32459d7b4114e86ec01
+      internalID: -1905297689
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GlassCup_3
+      name: smallerpaws 1_7
       rect:
         serializedVersion: 2
-        x: 0
-        y: 341.66666
-        width: 341.33334
-        height: 341.33334
+        x: 17
+        y: 35
+        width: 989
+        height: 804
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b63be5a87164624db4f94a93a8176be
-      internalID: -1376997122
+      spriteID: 709f99915acdc9c42b73587ef51e20b5
+      internalID: -2029752165
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GlassCup_4
+      name: smallerpaws 1_8
       rect:
         serializedVersion: 2
-        x: 341
-        y: 341.66666
-        width: 341.33334
-        height: 341.33334
+        x: 1122
+        y: 59
+        width: 989
+        height: 756
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3be5872f180a10d4bbdf05b1f6c1cb35
-      internalID: -705071218
+      spriteID: d304878665a371a4cb3cf9a442c7fcce
+      internalID: 1490418199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smallerpaws 1_11
+      rect:
+        serializedVersion: 2
+        x: 2298
+        y: 59
+        width: 988
+        height: 752
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2785ced8bb432e34fb8bb4f6323d72ed
+      internalID: -107068487
       vertices: []
       indices: 
       edges: []
@@ -212,14 +233,20 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      GlassCup_0: 2008095419
-      GlassCup_1: 722031957
-      GlassCup_2: 770122766
-      GlassCup_3: -1376997122
-      GlassCup_4: -705071218
-      GlassCup_5: -1626156128
-      GlassCup_6: -366654220
-      GlassCup_7: -1712227772
+      smallerpaws 1_0: 402105724
+      smallerpaws 1_1: -1629560553
+      smallerpaws 1_10: 1272197834
+      smallerpaws 1_11: -107068487
+      smallerpaws 1_12: 1463379797
+      smallerpaws 1_13: 567760810
+      smallerpaws 1_2: -409876725
+      smallerpaws 1_3: -1057737005
+      smallerpaws 1_4: -1905297689
+      smallerpaws 1_5: 1705460455
+      smallerpaws 1_6: -352411706
+      smallerpaws 1_7: -2029752165
+      smallerpaws 1_8: 1490418199
+      smallerpaws 1_9: -182873631
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

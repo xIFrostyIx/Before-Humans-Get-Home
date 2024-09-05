@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 029ee4ecd2bda824c97799b0d94278e7
+guid: 9e017a8b2e47ee74a930756dbdc286a3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -84,6 +84,19 @@ TextureImporter:
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
@@ -97,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mug_0
+      name: Bowl_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 682.6666
-        width: 341.33334
-        height: 341.33334
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 526f22fb486b0b94ab9cb956639c256a
-      internalID: -1858757527
+      spriteID: efb8a7fce0a1cf34383b1211797aea51
+      internalID: -1173530152
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mug_1
+      name: Bowl_1
       rect:
         serializedVersion: 2
-        x: 341
-        y: 682.6666
-        width: 341.33334
-        height: 341.33334
+        x: 512
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,41 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12d55dbebd34d7b42a317b181f234d96
-      internalID: -2011914531
+      spriteID: d1274fcdc7772f242804a07546cac5f4
+      internalID: -1855905533
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mug_2
-      rect:
-        serializedVersion: 2
-        x: 682
-        y: 682.6666
-        width: 341.33334
-        height: 341.33334
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2588e86f65e346c4b85929cc4a59d0cd
-      internalID: 1711788351
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mug_3
+      name: Bowl_2
       rect:
         serializedVersion: 2
         x: 0
-        y: 341.66666
-        width: 341.33334
-        height: 341.33334
+        y: 0
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,29 +166,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85c5aa501a5c93644ba627a47f944c89
-      internalID: 1177374474
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mug_4
-      rect:
-        serializedVersion: 2
-        x: 341
-        y: 341.66666
-        width: 341.33334
-        height: 341.33334
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f9f1d2f01ae4dcd458223a3fae9ac8a9
-      internalID: 323514537
+      spriteID: d802362dee8f0634eae8de47a489afac
+      internalID: -1745846533
       vertices: []
       indices: 
       edges: []
@@ -212,11 +183,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Mug_0: -1858757527
-      Mug_1: -2011914531
-      Mug_2: 1711788351
-      Mug_3: 1177374474
-      Mug_4: 323514537
+      Bowl_0: -1173530152
+      Bowl_1: -1855905533
+      Bowl_2: -1745846533
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

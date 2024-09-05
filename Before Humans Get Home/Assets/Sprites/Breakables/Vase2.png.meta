@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e8f617b2584f07241b77b23bbe4a5c7c
+guid: 7ecd9721ebcb0994c90ebdf4df07f696
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -93,11 +93,24 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Vase_0
+      name: Vase2_0
       rect:
         serializedVersion: 2
         x: 0
@@ -105,20 +118,20 @@ TextureImporter:
         width: 341.33334
         height: 341.33334
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cac8eed859036304188c90e30f3e6f89
-      internalID: 12243956
+      spriteID: 5e16a9577e4484643ab8293205113ae0
+      internalID: 1539836185
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vase_1
+      name: Vase2_1
       rect:
         serializedVersion: 2
         x: 341
@@ -126,20 +139,20 @@ TextureImporter:
         width: 341.33334
         height: 341.33334
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b7a628f3e1918b44bc13e6109326797
-      internalID: -1688383846
+      spriteID: 57efe6fbb8e3ee147bfc262f40ccec0a
+      internalID: -447415611
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vase_2
+      name: Vase2_2
       rect:
         serializedVersion: 2
         x: 682
@@ -147,20 +160,20 @@ TextureImporter:
         width: 341.33334
         height: 341.33334
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ceb1c965c06562643b97de33a9195f9b
-      internalID: -117280835
+      spriteID: 76b1e2ada2311434fb1a428ce0aede81
+      internalID: -268970508
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vase_3
+      name: Vase2_3
       rect:
         serializedVersion: 2
         x: 0
@@ -168,20 +181,20 @@ TextureImporter:
         width: 341.33334
         height: 341.33334
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14e24fa85c765af4d8c6d23ec069bfd4
-      internalID: 1355804205
+      spriteID: 2e695fa4fbe0e46489626971b2a0cbc6
+      internalID: -1790028306
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Vase_4
+      name: Vase2_4
       rect:
         serializedVersion: 2
         x: 341
@@ -189,14 +202,14 @@ TextureImporter:
         width: 341.33334
         height: 341.33334
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b7ee8b8505001b4f9fe9be60411a909
-      internalID: 1080126235
+      spriteID: 6f35fa78f39a3b041880d49d4e2d68ef
+      internalID: -1758456776
       vertices: []
       indices: 
       edges: []
@@ -212,12 +225,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Vase_0: 12243956
-      Vase_1: -1688383846
-      Vase_2: -117280835
-      Vase_3: 1355804205
-      Vase_4: 1080126235
-      Vase_5: 1858899936
+      Vase2_0: 1539836185
+      Vase2_1: -447415611
+      Vase2_2: -268970508
+      Vase2_3: -1790028306
+      Vase2_4: -1758456776
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

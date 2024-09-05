@@ -15,6 +15,7 @@ public class CharacterBehaviour : MonoBehaviour
     public Transform groundCheck;
     public LayerMask groundObjects;
     public float checkRadius;
+    private Animator anim;
 
     //references rigid body component
     private Rigidbody2D rb;
@@ -29,6 +30,7 @@ public class CharacterBehaviour : MonoBehaviour
     {
         //Will look for component attached to player
         rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();//Get Animator component from game object
     }
    
     // Update is called once per frame
@@ -39,6 +41,7 @@ public class CharacterBehaviour : MonoBehaviour
         if (Input.GetButtonDown("Jump") && isGround)
         {
             isJumping = true;
+            anim.SetTrigger("Jump");
         }
 
         //Animate
