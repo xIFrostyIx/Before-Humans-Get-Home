@@ -694,6 +694,10 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8856027880519530984, guid: 68f1056a6efd70e46a0e717dfe52921c, type: 3}
+      propertyPath: m_Mass
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8856027880519530984, guid: 68f1056a6efd70e46a0e717dfe52921c, type: 3}
       propertyPath: m_GravityScale
       value: 3
       objectReference: {fileID: 0}
@@ -1283,6 +1287,10 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7238798296306608274, guid: a92d62308c222e94091a528f2369f98a, type: 3}
+      propertyPath: m_Mass
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7238798296306608274, guid: a92d62308c222e94091a528f2369f98a, type: 3}
       propertyPath: m_GravityScale
       value: 3
       objectReference: {fileID: 0}
@@ -1418,7 +1426,7 @@ Transform:
   m_GameObject: {fileID: 290144287}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -244.86311, y: -479.9739, z: -10.91}
+  m_LocalPosition: {x: -244.722, y: -479.9739, z: -10.91}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2964,6 +2972,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7839661937953011303, guid: 00be520e8c426fa46af8f9c3bf88a7ba, type: 3}
+      propertyPath: m_Mass
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7839661937953011303, guid: 00be520e8c426fa46af8f9c3bf88a7ba, type: 3}
       propertyPath: m_GravityScale
       value: 2
       objectReference: {fileID: 0}
@@ -3402,6 +3414,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 999632182}
     m_Modifications:
+    - target: {fileID: 665916123419791923, guid: cbff85ea1d4d3c940927af16684455fc, type: 3}
+      propertyPath: m_Mass
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 665916123419791923, guid: cbff85ea1d4d3c940927af16684455fc, type: 3}
       propertyPath: m_Constraints
       value: 0
@@ -4640,6 +4656,10 @@ PrefabInstance:
     - target: {fileID: 3215740840865266079, guid: 688e282eea7335a46a4151e30b220774, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5798364388968766139, guid: 688e282eea7335a46a4151e30b220774, type: 3}
+      propertyPath: m_Mass
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5798364388968766139, guid: 688e282eea7335a46a4151e30b220774, type: 3}
       propertyPath: m_GravityScale
@@ -5931,6 +5951,10 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7238798296306608274, guid: a92d62308c222e94091a528f2369f98a, type: 3}
+      propertyPath: m_Mass
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7238798296306608274, guid: a92d62308c222e94091a528f2369f98a, type: 3}
       propertyPath: m_GravityScale
       value: 3
       objectReference: {fileID: 0}
@@ -6148,6 +6172,10 @@ PrefabInstance:
     - target: {fileID: 3215740840865266079, guid: 688e282eea7335a46a4151e30b220774, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5798364388968766139, guid: 688e282eea7335a46a4151e30b220774, type: 3}
+      propertyPath: m_Mass
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5798364388968766139, guid: 688e282eea7335a46a4151e30b220774, type: 3}
       propertyPath: m_GravityScale
@@ -6516,6 +6544,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 999632182}
     m_Modifications:
+    - target: {fileID: 665916123419791923, guid: cbff85ea1d4d3c940927af16684455fc, type: 3}
+      propertyPath: m_Mass
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 665916123419791923, guid: cbff85ea1d4d3c940927af16684455fc, type: 3}
       propertyPath: m_Constraints
       value: 0
@@ -7456,6 +7488,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7839661937953011303, guid: 00be520e8c426fa46af8f9c3bf88a7ba, type: 3}
+      propertyPath: m_Mass
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7839661937953011303, guid: 00be520e8c426fa46af8f9c3bf88a7ba, type: 3}
       propertyPath: m_GravityScale
       value: 2
       objectReference: {fileID: 0}
@@ -7543,6 +7579,10 @@ PrefabInstance:
     - target: {fileID: 8622894606739561425, guid: 68f1056a6efd70e46a0e717dfe52921c, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8856027880519530984, guid: 68f1056a6efd70e46a0e717dfe52921c, type: 3}
+      propertyPath: m_Mass
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8856027880519530984, guid: 68f1056a6efd70e46a0e717dfe52921c, type: 3}
       propertyPath: m_GravityScale
