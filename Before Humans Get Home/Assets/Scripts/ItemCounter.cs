@@ -58,7 +58,7 @@ public class ItemCounter : MonoBehaviour
         itemCount = GameObject.FindGameObjectsWithTag("Prop").Length;
     }
 
-    private void UpdateCounterText()
+    public void UpdateCounterText()
     {
         // Displays the number of "props"
         counterText.text = "Items Left: " + itemCount;
