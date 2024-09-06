@@ -25,7 +25,32 @@ public class ItemCounter : MonoBehaviour
         }
     }
 
-    
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        // Check if the object has the "Player" tag
+        if (other.CompareTag("Player"))
+        {
+            // Check if the player collided with a "Prop"
+            if (other.gameObject.GetComponent<Collider2D>().IsTouchingLayers(LayerMask.GetMask("Prop")))
+            {
+                // Decrease the item count
+                itemCount--;
+
+                // Update the counter text
+                UpdateCounterText();
+
+                // Destroy the object that was collided with
+                Destroy(other.gameObject);
+
+                // Check if all items are collected
+                if (itemCount <= 0)
+                {
+                    // Load the win scene
+                    SceneManager.LoadScene("Win");
+                }
+            }
+        }
+    }
 
     private void UpdateItemCount()
     {
