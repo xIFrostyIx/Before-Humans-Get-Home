@@ -7,7 +7,8 @@ public class DestroyProp : MonoBehaviour
     public float targetYPosition = 2.0f;  // Set the desired y-axis position
     public float scaleUpSpeed = 1.0f;     // Speed of scaling
     public float moveSpeed = 2.0f;        // Speed of movement
-    public Animator animator;             // Animator component for playing animations
+    public AudioSource audioSource;       // AudioSource component for playing sound
+    public AudioClip destroySound;        // Sound to play before the object is destroyed
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -39,12 +40,12 @@ public class DestroyProp : MonoBehaviour
             yield return null;
         }
 
-        // Play the animation
-        if (animator != null)
+        // Play the sound
+        if (audioSource != null && destroySound != null)
         {
-            animator.SetTrigger("PlayDestroyAnimation");
-            // Wait for the animation to finish (assuming the animation lasts 1 second)
-            yield return new WaitForSeconds(1f);
+            audioSource.PlayOneShot(destroySound);
+            // Wait for the sound to finish playing (you can use destroySound.length to wait the correct time)
+            //yield return new WaitForSeconds(destroySound.length);
         }
 
         // Reduce the counter and update the UI

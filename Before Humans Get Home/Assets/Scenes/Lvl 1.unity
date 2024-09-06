@@ -1299,8 +1299,16 @@ PrefabInstance:
       objectReference: {fileID: 2065815858}
     - target: {fileID: 6044973991410733329, guid: a92d62308c222e94091a528f2369f98a, type: 3}
       propertyPath: moveSpeed
-      value: 12
+      value: 30
       objectReference: {fileID: 0}
+    - target: {fileID: 6044973991410733329, guid: a92d62308c222e94091a528f2369f98a, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 2065815859}
+    - target: {fileID: 6044973991410733329, guid: a92d62308c222e94091a528f2369f98a, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 9dd9b38f397d95f4d8f33da2687a0e53, type: 3}
     - target: {fileID: 6044973991410733329, guid: a92d62308c222e94091a528f2369f98a, type: 3}
       propertyPath: scaleUpSpeed
       value: 3
@@ -1449,7 +1457,11 @@ Transform:
   m_GameObject: {fileID: 290144287}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< Updated upstream
   m_LocalPosition: {x: -244.722, y: -479.9739, z: -10.91}
+=======
+  m_LocalPosition: {x: -250.18756, y: -479.9739, z: -10.91}
+>>>>>>> Stashed changes
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3021,8 +3033,16 @@ PrefabInstance:
       objectReference: {fileID: 2065815858}
     - target: {fileID: -8146532923135125070, guid: 00be520e8c426fa46af8f9c3bf88a7ba, type: 3}
       propertyPath: moveSpeed
-      value: 12
+      value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: -8146532923135125070, guid: 00be520e8c426fa46af8f9c3bf88a7ba, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 2065815859}
+    - target: {fileID: -8146532923135125070, guid: 00be520e8c426fa46af8f9c3bf88a7ba, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 47d029993d2780a40a656e70c33e758a, type: 3}
     - target: {fileID: -8146532923135125070, guid: 00be520e8c426fa46af8f9c3bf88a7ba, type: 3}
       propertyPath: scaleUpSpeed
       value: 3
@@ -3031,13 +3051,21 @@ PrefabInstance:
       propertyPath: targetYPosition
       value: -495.469
       objectReference: {fileID: 0}
+    - target: {fileID: -8146532923135125070, guid: 00be520e8c426fa46af8f9c3bf88a7ba, type: 3}
+      propertyPath: animationClipName
+      value: GlassCup_ani
+      objectReference: {fileID: 0}
+    - target: {fileID: -8146532923135125070, guid: 00be520e8c426fa46af8f9c3bf88a7ba, type: 3}
+      propertyPath: animationTriggerName
+      value: GlassCup
+      objectReference: {fileID: 0}
     - target: {fileID: 5474285390029403540, guid: 00be520e8c426fa46af8f9c3bf88a7ba, type: 3}
       propertyPath: m_LocalPosition.x
       value: -112.4
       objectReference: {fileID: 0}
     - target: {fileID: 5474285390029403540, guid: 00be520e8c426fa46af8f9c3bf88a7ba, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -350.45
+      value: -350.3
       objectReference: {fileID: 0}
     - target: {fileID: 5474285390029403540, guid: 00be520e8c426fa46af8f9c3bf88a7ba, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3520,8 +3548,16 @@ PrefabInstance:
       objectReference: {fileID: 2065815858}
     - target: {fileID: -3404957280247686006, guid: cbff85ea1d4d3c940927af16684455fc, type: 3}
       propertyPath: moveSpeed
-      value: 12
+      value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: -3404957280247686006, guid: cbff85ea1d4d3c940927af16684455fc, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 2065815859}
+    - target: {fileID: -3404957280247686006, guid: cbff85ea1d4d3c940927af16684455fc, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: ddb0841eac1970a4c98138549c839c73, type: 3}
     - target: {fileID: -3404957280247686006, guid: cbff85ea1d4d3c940927af16684455fc, type: 3}
       propertyPath: scaleUpSpeed
       value: 4
@@ -3642,7 +3678,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.19100001, y: 0}
   m_AnchorMax: {x: 0.799, y: 0.86856294}
-  m_AnchoredPosition: {x: 2.581192, y: -5.799988}
+  m_AnchoredPosition: {x: 2.5811768, y: -5.799988}
   m_SizeDelta: {x: 17.6006, y: 14.1491}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1146451636
@@ -4792,8 +4828,16 @@ PrefabInstance:
       objectReference: {fileID: 2065815858}
     - target: {fileID: 7368023362695653144, guid: 688e282eea7335a46a4151e30b220774, type: 3}
       propertyPath: moveSpeed
-      value: 12
+      value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 7368023362695653144, guid: 688e282eea7335a46a4151e30b220774, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 2065815859}
+    - target: {fileID: 7368023362695653144, guid: 688e282eea7335a46a4151e30b220774, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: c3499bcaac835a8428b4b0ebbfc36aa0, type: 3}
     - target: {fileID: 7368023362695653144, guid: 688e282eea7335a46a4151e30b220774, type: 3}
       propertyPath: scaleUpSpeed
       value: 3
@@ -5561,8 +5605,9 @@ MonoBehaviour:
   counter: {fileID: 2065815858}
   targetYPosition: -493.309
   scaleUpSpeed: 3
-  moveSpeed: 12
-  animator: {fileID: 0}
+  moveSpeed: 30
+  audioSource: {fileID: 2065815859}
+  destroySound: {fileID: 8300000, guid: 938e62f5ce2c8a749beff3134d0e033f, type: 3}
 --- !u!4 &1920537861 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4735646301797866184, guid: ce966dc1a9ec1ce4b8b3db8ecd9709d0, type: 3}
@@ -5704,8 +5749,9 @@ MonoBehaviour:
   counter: {fileID: 2065815858}
   targetYPosition: -493.309
   scaleUpSpeed: 3
-  moveSpeed: 12
-  animator: {fileID: 0}
+  moveSpeed: 30
+  audioSource: {fileID: 2065815859}
+  destroySound: {fileID: 8300000, guid: 938e62f5ce2c8a749beff3134d0e033f, type: 3}
 --- !u!1 &2065815852
 GameObject:
   m_ObjectHideFlags: 0
@@ -6233,8 +6279,16 @@ PrefabInstance:
       objectReference: {fileID: 2065815858}
     - target: {fileID: 6044973991410733329, guid: a92d62308c222e94091a528f2369f98a, type: 3}
       propertyPath: moveSpeed
-      value: 12
+      value: 30
       objectReference: {fileID: 0}
+    - target: {fileID: 6044973991410733329, guid: a92d62308c222e94091a528f2369f98a, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 2065815859}
+    - target: {fileID: 6044973991410733329, guid: a92d62308c222e94091a528f2369f98a, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 9dd9b38f397d95f4d8f33da2687a0e53, type: 3}
     - target: {fileID: 6044973991410733329, guid: a92d62308c222e94091a528f2369f98a, type: 3}
       propertyPath: scaleUpSpeed
       value: 3
@@ -6479,9 +6533,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2065815858}
     - target: {fileID: 7368023362695653144, guid: 688e282eea7335a46a4151e30b220774, type: 3}
-      propertyPath: moveSpeed
-      value: 12
+      propertyPath: animator
+      value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 7368023362695653144, guid: 688e282eea7335a46a4151e30b220774, type: 3}
+      propertyPath: moveSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7368023362695653144, guid: 688e282eea7335a46a4151e30b220774, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 2065815859}
+    - target: {fileID: 7368023362695653144, guid: 688e282eea7335a46a4151e30b220774, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 0ed4e592c04e71e469cd28c74073df03, type: 3}
     - target: {fileID: 7368023362695653144, guid: 688e282eea7335a46a4151e30b220774, type: 3}
       propertyPath: scaleUpSpeed
       value: 3
@@ -6859,8 +6925,16 @@ PrefabInstance:
       objectReference: {fileID: 2065815858}
     - target: {fileID: -3404957280247686006, guid: cbff85ea1d4d3c940927af16684455fc, type: 3}
       propertyPath: moveSpeed
-      value: 12
+      value: 30
       objectReference: {fileID: 0}
+    - target: {fileID: -3404957280247686006, guid: cbff85ea1d4d3c940927af16684455fc, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 2065815859}
+    - target: {fileID: -3404957280247686006, guid: cbff85ea1d4d3c940927af16684455fc, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: ddb0841eac1970a4c98138549c839c73, type: 3}
     - target: {fileID: -3404957280247686006, guid: cbff85ea1d4d3c940927af16684455fc, type: 3}
       propertyPath: scaleUpSpeed
       value: 3
@@ -7777,9 +7851,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2065815858}
     - target: {fileID: -8146532923135125070, guid: 00be520e8c426fa46af8f9c3bf88a7ba, type: 3}
-      propertyPath: moveSpeed
-      value: 12
+      propertyPath: animator
+      value: 
       objectReference: {fileID: 0}
+    - target: {fileID: -8146532923135125070, guid: 00be520e8c426fa46af8f9c3bf88a7ba, type: 3}
+      propertyPath: moveSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: -8146532923135125070, guid: 00be520e8c426fa46af8f9c3bf88a7ba, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 2065815859}
+    - target: {fileID: -8146532923135125070, guid: 00be520e8c426fa46af8f9c3bf88a7ba, type: 3}
+      propertyPath: destroySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 47d029993d2780a40a656e70c33e758a, type: 3}
     - target: {fileID: -8146532923135125070, guid: 00be520e8c426fa46af8f9c3bf88a7ba, type: 3}
       propertyPath: scaleUpSpeed
       value: 3
