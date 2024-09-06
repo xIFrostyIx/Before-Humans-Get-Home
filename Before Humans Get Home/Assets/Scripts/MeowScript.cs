@@ -5,19 +5,21 @@ using UnityEngine;
 public class MeowScript : MonoBehaviour
 {
     public AudioSource Meow;
+    private bool canPlaySound = true;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.M)) 
+        if (Input.GetKeyDown(KeyCode.M) && canPlaySound) 
         {
-            Meow.Play();
+            StartCoroutine(PlayMeowSound());
         }
+    }
+
+    private IEnumerator PlayMeowSound()
+    {
+        canPlaySound = false;
+        Meow.Play();
+        yield return new WaitForSeconds(Meow.clip.length);
+        canPlaySound = true;
     }
 }
