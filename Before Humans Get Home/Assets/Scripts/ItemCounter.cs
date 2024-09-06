@@ -9,6 +9,7 @@ public class ItemCounter : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI counterText;
     public int itemCount;
+
     // Start is called before the first frame update
     private void Start()
     {
@@ -16,26 +17,26 @@ public class ItemCounter : MonoBehaviour
         UpdateCounterText();
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void Update()
     {
-        if (other.CompareTag("Prop"))
+        if (itemCount <= 0)
         {
-            itemCount--;
-            UpdateCounterText();
-
-            if (itemCount <= 0)
-            {
-                SceneManager.LoadScene("Win");
-            }
+            SceneManager.LoadScene("Win");
         }
     }
+
+    
+
     private void UpdateItemCount()
     {
+        // Looks for objects with "Prop" tag
         itemCount = GameObject.FindGameObjectsWithTag("Prop").Length;
     }
 
     private void UpdateCounterText()
     {
+        // Displays the number of "props"
         counterText.text = "Items Left: " + itemCount;
     }
 }
+
