@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class MeowScript : MonoBehaviour
 {
+    public AudioSource Meow;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +15,9 @@ public class MeowScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.M)) 
+        {
+            Meow.Play();
+        }
     }
 }

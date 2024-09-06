@@ -734,6 +734,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   counter: {fileID: 2065815858}
+  targetYPosition: 2
+  scaleUpSpeed: 1
+  moveSpeed: 2
+  animator: {fileID: 0}
 --- !u!1 &202152636
 GameObject:
   m_ObjectHideFlags: 0
@@ -1510,6 +1514,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   counter: {fileID: 2065815858}
+  targetYPosition: 2
+  scaleUpSpeed: 1
+  moveSpeed: 2
+  animator: {fileID: 0}
 --- !u!1 &426031760
 GameObject:
   m_ObjectHideFlags: 0
@@ -1785,6 +1793,8 @@ GameObject:
   - component: {fileID: 503867384}
   - component: {fileID: 503867385}
   - component: {fileID: 503867386}
+  - component: {fileID: 503867388}
+  - component: {fileID: 503867387}
   m_Layer: 0
   m_Name: Cat Walking Sprite Sheet Rough copy_0
   m_TagString: Player
@@ -2023,6 +2033,115 @@ EdgeCollider2D:
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
   m_UseAdjacentEndPoint: 0
+--- !u!82 &503867387
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 503867379}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 1e9968ac3bd811d4892e59aed5f06abb, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 0.67
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &503867388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 503867379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0753cca070feb8247925b0cfd32d64e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Meow: {fileID: 503867387}
 --- !u!1001 &506190276
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3461,6 +3580,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   counter: {fileID: 2065815858}
+  targetYPosition: 2
+  scaleUpSpeed: 1
+  moveSpeed: 2
+  animator: {fileID: 0}
 --- !u!1 &1126125449
 GameObject:
   m_ObjectHideFlags: 0
@@ -3563,6 +3686,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   counter: {fileID: 2065815858}
+  targetYPosition: 2
+  scaleUpSpeed: 1
+  moveSpeed: 2
+  animator: {fileID: 0}
 --- !u!1 &1146451634
 GameObject:
   m_ObjectHideFlags: 0
@@ -4642,6 +4769,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   counter: {fileID: 2065815858}
+  targetYPosition: 2
+  scaleUpSpeed: 1
+  moveSpeed: 2
+  animator: {fileID: 0}
 --- !u!1001 &1652938339
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5307,6 +5438,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   counter: {fileID: 2065815858}
+  targetYPosition: 2
+  scaleUpSpeed: 1
+  moveSpeed: 2
+  animator: {fileID: 0}
 --- !u!4 &1845521225 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3807222252054307671, guid: 955822673288d534da66eb899a7f4c91, type: 3}
@@ -5459,6 +5594,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   counter: {fileID: 2065815858}
+  targetYPosition: 2
+  scaleUpSpeed: 1
+  moveSpeed: 2
+  animator: {fileID: 0}
 --- !u!1 &1933209847
 GameObject:
   m_ObjectHideFlags: 0
@@ -5778,7 +5917,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timerText: {fileID: 426031762}
-  remainingTime: 60
+  remainingTime: 40
   sceneName: You Lose
 --- !u!114 &2065815858
 MonoBehaviour:
