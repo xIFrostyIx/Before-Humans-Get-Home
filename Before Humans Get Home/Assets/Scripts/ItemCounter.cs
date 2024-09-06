@@ -8,6 +8,7 @@ using UnityEngine.SceneManagement;
 public class ItemCounter : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI counterText;
+    [SerializeField] string sceneName = "Win";
     public int itemCount;
 
 
@@ -22,7 +23,7 @@ public class ItemCounter : MonoBehaviour
     {
         if (itemCount <= 0)
         {
-            SceneManager.LoadScene("NxtLvl");
+            SceneManager.LoadScene(sceneName);
         }
 
     }
@@ -48,7 +49,7 @@ public class ItemCounter : MonoBehaviour
                 if (itemCount <= 0)
                 {
                     // Load the win scene
-                    SceneManager.LoadScene("NxtLvl");
+                    SceneManager.LoadScene(sceneName);
                 }
             }
         }
