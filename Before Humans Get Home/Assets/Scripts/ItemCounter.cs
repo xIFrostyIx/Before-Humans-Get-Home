@@ -10,6 +10,7 @@ public class ItemCounter : MonoBehaviour
     [SerializeField] TextMeshProUGUI counterText;
     public int itemCount;
 
+
     // Start is called before the first frame update
     private void Start()
     {
@@ -21,8 +22,9 @@ public class ItemCounter : MonoBehaviour
     {
         if (itemCount <= 0)
         {
-            SceneManager.LoadScene("Win");
+            SceneManager.LoadScene("NxtLvl");
         }
+
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -46,7 +48,7 @@ public class ItemCounter : MonoBehaviour
                 if (itemCount <= 0)
                 {
                     // Load the win scene
-                    SceneManager.LoadScene("Win");
+                    SceneManager.LoadScene("NxtLvl");
                 }
             }
         }

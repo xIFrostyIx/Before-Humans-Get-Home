@@ -10,6 +10,11 @@ public class SceneSwitch : MonoBehaviour
         SceneManager.LoadScene("Lvl 1");
     }
 
+    public void GoToLevelTwo()
+    {
+        SceneManager.LoadScene("Lvl 2");
+    }
+
     public void GoToTitle()
     {
         SceneManager.LoadScene("Title");

@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Lvl 1.unity
     guid: 8ccd6915fe94c6c4d81df76d157b76fa
   - enabled: 1
+    path: Assets/Scenes/Lvl 2.unity
+    guid: b01d46af4bcc2224f903bfebbb57c30a
+  - enabled: 1
     path: Assets/Scenes/Instructions.unity
     guid: 3b4dcf0546d787b41a06c2239386d0f0
   - enabled: 1
@@ -23,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Win.unity
     guid: 97f95d8103ca5034cb9e75898246a838
+  - enabled: 1
+    path: Assets/Scenes/NxtLvl.unity
+    guid: 47ed52e2f3a28fd448f698a608cda48c
   m_configObjects: {}

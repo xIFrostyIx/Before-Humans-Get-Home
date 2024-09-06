@@ -305,7 +305,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.35147157, y: 0.12532622}
   m_AnchorMax: {x: 0.6627927, y: 0.42332622}
-  m_AnchoredPosition: {x: -0.30000305, y: 0}
+  m_AnchoredPosition: {x: -0.2999878, y: 0}
   m_SizeDelta: {x: -4.3862915, y: 0.2759018}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &142523004
@@ -1129,7 +1129,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.636585}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.0032958984, y: -0.075912476}
+  m_AnchoredPosition: {x: -0.0032958984, y: -0.07589722}
   m_SizeDelta: {x: 0.01, y: -0.84819794}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1615373049
@@ -1402,7 +1402,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1292272059}
         m_TargetAssemblyTypeName: SceneSwitch, Assembly-CSharp
-        m_MethodName: GoToTitle
+        m_MethodName: GoToLevelTwo
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
