@@ -734,19 +734,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   counter: {fileID: 2065815858}
-
-  targetYPosition: 2
-  scaleUpSpeed: 1
-  moveSpeed: 2
-  audioSource: {fileID: 0}
-  destroySound: {fileID: 0}
-
-  targetYPosition: -495.434
+  targetYPosition: -495.404
   scaleUpSpeed: 3
   moveSpeed: 25
   audioSource: {fileID: 2065815859}
   destroySound: {fileID: 8300000, guid: 2ce44bbcabe427441bd614bcbd524c20, type: 3}
-
 --- !u!1 &202152636
 GameObject:
   m_ObjectHideFlags: 0
@@ -1197,7 +1189,7 @@ Transform:
   m_GameObject: {fileID: 290144287}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -396.18228, y: -479.9739, z: -10.91}
+  m_LocalPosition: {x: -395.69382, y: -479.9739, z: -10.91}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1523,19 +1515,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   counter: {fileID: 2065815858}
-
-  targetYPosition: 2
-  scaleUpSpeed: 1
-  moveSpeed: 2
-  audioSource: {fileID: 0}
-  destroySound: {fileID: 0}
-
-  targetYPosition: -495.156
+  targetYPosition: -495.135
   scaleUpSpeed: 3
-  moveSpeed: 25
+  moveSpeed: 30
   audioSource: {fileID: 2065815859}
   destroySound: {fileID: 8300000, guid: 938e62f5ce2c8a749beff3134d0e033f, type: 3}
-
 --- !u!1 &426031760
 GameObject:
   m_ObjectHideFlags: 0
@@ -3598,19 +3582,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   counter: {fileID: 2065815858}
-
-  targetYPosition: 2
-  scaleUpSpeed: 1
-  moveSpeed: 2
-  audioSource: {fileID: 0}
-  destroySound: {fileID: 0}
-
-  targetYPosition: -495.72
+  targetYPosition: -495.7
   scaleUpSpeed: 3
   moveSpeed: 25
   audioSource: {fileID: 2065815859}
   destroySound: {fileID: 8300000, guid: 30d76a8c465ada74790715624cd8f6c2, type: 3}
-
 --- !u!1 &1126125449
 GameObject:
   m_ObjectHideFlags: 0
@@ -3713,19 +3689,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   counter: {fileID: 2065815858}
-
-  targetYPosition: 2
-  scaleUpSpeed: 1
-  moveSpeed: 2
-  audioSource: {fileID: 0}
-  destroySound: {fileID: 0}
-
-  targetYPosition: -494.6
+  targetYPosition: -495
   scaleUpSpeed: 3
-  moveSpeed: 30
+  moveSpeed: 35
   audioSource: {fileID: 2065815859}
   destroySound: {fileID: 8300000, guid: 9dd9b38f397d95f4d8f33da2687a0e53, type: 3}
-
 --- !u!1 &1146451634
 GameObject:
   m_ObjectHideFlags: 0
@@ -4805,19 +4773,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   counter: {fileID: 2065815858}
-
-  targetYPosition: 2
-  scaleUpSpeed: 1
-  moveSpeed: 2
-  audioSource: {fileID: 0}
-  destroySound: {fileID: 0}
-
-  targetYPosition: -496.14
+  targetYPosition: -496.2
   scaleUpSpeed: 3
-  moveSpeed: 20
+  moveSpeed: 25
   audioSource: {fileID: 2065815859}
   destroySound: {fileID: 8300000, guid: 938e62f5ce2c8a749beff3134d0e033f, type: 3}
-
 --- !u!1001 &1652938339
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5029,7 +4989,7 @@ PrefabInstance:
       objectReference: {fileID: 2065815858}
     - target: {fileID: 7368023362695653144, guid: 688e282eea7335a46a4151e30b220774, type: 3}
       propertyPath: moveSpeed
-      value: 20
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 7368023362695653144, guid: 688e282eea7335a46a4151e30b220774, type: 3}
       propertyPath: audioSource
@@ -5315,7 +5275,7 @@ PrefabInstance:
       objectReference: {fileID: 2065815858}
     - target: {fileID: 7368023362695653144, guid: 688e282eea7335a46a4151e30b220774, type: 3}
       propertyPath: moveSpeed
-      value: 20
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 7368023362695653144, guid: 688e282eea7335a46a4151e30b220774, type: 3}
       propertyPath: audioSource
@@ -5523,19 +5483,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   counter: {fileID: 2065815858}
-
-  targetYPosition: 2
-  scaleUpSpeed: 1
-  moveSpeed: 2
-  audioSource: {fileID: 0}
-  destroySound: {fileID: 0}
-
   targetYPosition: -495
   scaleUpSpeed: 3
   moveSpeed: 30
   audioSource: {fileID: 2065815859}
   destroySound: {fileID: 8300000, guid: ddb0841eac1970a4c98138549c839c73, type: 3}
-
 --- !u!4 &1845521225 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3807222252054307671, guid: 955822673288d534da66eb899a7f4c91, type: 3}
@@ -5688,19 +5640,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   counter: {fileID: 2065815858}
-
-  targetYPosition: 2
-  scaleUpSpeed: 1
-  moveSpeed: 2
-  audioSource: {fileID: 0}
-  destroySound: {fileID: 0}
-
-  targetYPosition: -495.156
+  targetYPosition: -495
   scaleUpSpeed: 3
-  moveSpeed: 25
+  moveSpeed: 30
   audioSource: {fileID: 2065815859}
   destroySound: {fileID: 8300000, guid: 938e62f5ce2c8a749beff3134d0e033f, type: 3}
-
 --- !u!1 &1933209847
 GameObject:
   m_ObjectHideFlags: 0
@@ -6035,6 +5979,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   counterText: {fileID: 1668722919}
+  sceneName: Win
   itemCount: 0
 --- !u!82 &2065815859
 AudioSource:
@@ -6430,7 +6375,7 @@ PrefabInstance:
       objectReference: {fileID: 2065815858}
     - target: {fileID: 7368023362695653144, guid: 688e282eea7335a46a4151e30b220774, type: 3}
       propertyPath: moveSpeed
-      value: 20
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 7368023362695653144, guid: 688e282eea7335a46a4151e30b220774, type: 3}
       propertyPath: audioSource
@@ -7339,7 +7284,7 @@ PrefabInstance:
       objectReference: {fileID: 2065815858}
     - target: {fileID: -8146532923135125070, guid: 00be520e8c426fa46af8f9c3bf88a7ba, type: 3}
       propertyPath: moveSpeed
-      value: 20
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: -8146532923135125070, guid: 00be520e8c426fa46af8f9c3bf88a7ba, type: 3}
       propertyPath: audioSource
