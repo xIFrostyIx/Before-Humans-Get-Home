@@ -734,19 +734,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   counter: {fileID: 2065815858}
-<<<<<<< Updated upstream
+
   targetYPosition: 2
   scaleUpSpeed: 1
   moveSpeed: 2
   audioSource: {fileID: 0}
   destroySound: {fileID: 0}
-=======
+
   targetYPosition: -495.434
   scaleUpSpeed: 3
   moveSpeed: 25
   audioSource: {fileID: 2065815859}
   destroySound: {fileID: 8300000, guid: 2ce44bbcabe427441bd614bcbd524c20, type: 3}
->>>>>>> Stashed changes
+
 --- !u!1 &202152636
 GameObject:
   m_ObjectHideFlags: 0
@@ -1523,19 +1523,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   counter: {fileID: 2065815858}
-<<<<<<< Updated upstream
+
   targetYPosition: 2
   scaleUpSpeed: 1
   moveSpeed: 2
   audioSource: {fileID: 0}
   destroySound: {fileID: 0}
-=======
+
   targetYPosition: -495.156
   scaleUpSpeed: 3
   moveSpeed: 25
   audioSource: {fileID: 2065815859}
   destroySound: {fileID: 8300000, guid: 938e62f5ce2c8a749beff3134d0e033f, type: 3}
->>>>>>> Stashed changes
+
 --- !u!1 &426031760
 GameObject:
   m_ObjectHideFlags: 0
@@ -3598,19 +3598,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   counter: {fileID: 2065815858}
-<<<<<<< Updated upstream
+
   targetYPosition: 2
   scaleUpSpeed: 1
   moveSpeed: 2
   audioSource: {fileID: 0}
   destroySound: {fileID: 0}
-=======
+
   targetYPosition: -495.72
   scaleUpSpeed: 3
   moveSpeed: 25
   audioSource: {fileID: 2065815859}
   destroySound: {fileID: 8300000, guid: 30d76a8c465ada74790715624cd8f6c2, type: 3}
->>>>>>> Stashed changes
+
 --- !u!1 &1126125449
 GameObject:
   m_ObjectHideFlags: 0
@@ -3713,19 +3713,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   counter: {fileID: 2065815858}
-<<<<<<< Updated upstream
+
   targetYPosition: 2
   scaleUpSpeed: 1
   moveSpeed: 2
   audioSource: {fileID: 0}
   destroySound: {fileID: 0}
-=======
+
   targetYPosition: -494.6
   scaleUpSpeed: 3
   moveSpeed: 30
   audioSource: {fileID: 2065815859}
   destroySound: {fileID: 8300000, guid: 9dd9b38f397d95f4d8f33da2687a0e53, type: 3}
->>>>>>> Stashed changes
+
 --- !u!1 &1146451634
 GameObject:
   m_ObjectHideFlags: 0
@@ -4805,19 +4805,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   counter: {fileID: 2065815858}
-<<<<<<< Updated upstream
+
   targetYPosition: 2
   scaleUpSpeed: 1
   moveSpeed: 2
   audioSource: {fileID: 0}
   destroySound: {fileID: 0}
-=======
+
   targetYPosition: -496.14
   scaleUpSpeed: 3
   moveSpeed: 20
   audioSource: {fileID: 2065815859}
   destroySound: {fileID: 8300000, guid: 938e62f5ce2c8a749beff3134d0e033f, type: 3}
->>>>>>> Stashed changes
+
 --- !u!1001 &1652938339
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5523,19 +5523,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   counter: {fileID: 2065815858}
-<<<<<<< Updated upstream
+
   targetYPosition: 2
   scaleUpSpeed: 1
   moveSpeed: 2
   audioSource: {fileID: 0}
   destroySound: {fileID: 0}
-=======
+
   targetYPosition: -495
   scaleUpSpeed: 3
   moveSpeed: 30
   audioSource: {fileID: 2065815859}
   destroySound: {fileID: 8300000, guid: ddb0841eac1970a4c98138549c839c73, type: 3}
->>>>>>> Stashed changes
+
 --- !u!4 &1845521225 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3807222252054307671, guid: 955822673288d534da66eb899a7f4c91, type: 3}
@@ -5688,19 +5688,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   counter: {fileID: 2065815858}
-<<<<<<< Updated upstream
+
   targetYPosition: 2
   scaleUpSpeed: 1
   moveSpeed: 2
   audioSource: {fileID: 0}
   destroySound: {fileID: 0}
-=======
+
   targetYPosition: -495.156
   scaleUpSpeed: 3
   moveSpeed: 25
   audioSource: {fileID: 2065815859}
   destroySound: {fileID: 8300000, guid: 938e62f5ce2c8a749beff3134d0e033f, type: 3}
->>>>>>> Stashed changes
+
 --- !u!1 &1933209847
 GameObject:
   m_ObjectHideFlags: 0
